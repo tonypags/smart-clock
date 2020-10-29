@@ -1,3 +1,8 @@
+use chrono::Local;
+
 fn main() {
-    println!("Hello, world!");
+    let name = "Tony";
+
+    println!("Hi {0}!", name);
+    println!("This time is {}", Local::now());
 }
